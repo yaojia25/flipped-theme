@@ -1,0 +1,28 @@
+{
+  "name": "flipped-theme",
+  "displayName": "Flipped Theme",
+  "description": "基于OneDark Pro和默认Default Dark Modern修改的自用主题",
+  "icon": "icon.png",
+  "version": "0.1.0",
+  "publisher": "Jasyo",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaojia25/flipped-theme"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Flipped Dark Modern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/flipped-dark-modern-color-theme.json"
+      }
+    ]
+  }
+}
