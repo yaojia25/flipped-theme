@@ -1,10 +1,10 @@
 # Flipped Theme For VSCode
 
-Self-use custom theme for VS Code, color scheme reference [One Dark Pro](https://github.com/Binaryify/OneDark-Pro), dark themes reference VSCode official theme "Default Dark Modern"
+Self-use custom theme for VS Code, token color reference [One Dark Pro](https://github.com/Binaryify/OneDark-Pro), workbench colors reference VSCode official theme "Default Dark Modern"
 
 ## Features
 - Similar to "One Dark Pro Darker" token color and semantic token color
-- Similar to "Default Dark Modern" Workbench colors
+- Similar to "Default Dark Modern" workbench colors
 - Optimized for Python language
 
 
