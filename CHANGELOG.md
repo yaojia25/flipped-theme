@@ -1,9 +1,5 @@
 # Change Log
 
-All notable changes to the "moegi-onedark-pro" extension will be documented in this file.
+## [0.1.2] - 2024-05-25
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- Delete token color and semantic token colors of dark_vs file
