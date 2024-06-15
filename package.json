@@ -3,7 +3,7 @@
   "displayName": "Flipped Theme",
   "description": "基于OneDark Pro和默认Default Dark Modern修改的自用主题",
   "icon": "icon.png",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "Jasyo",
   "license": "MIT",
   "engines": {
@@ -22,6 +22,13 @@
         "label": "Flipped Dark Modern",
         "uiTheme": "vs-dark",
         "path": "./themes/flipped-dark-modern-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "flipped-dark-icon-theme",
+        "label": "flipped Icon Theme NF Dark",
+        "path": "./dist/flipped-dark-icon-theme.json"
       }
     ]
   }
