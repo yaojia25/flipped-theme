@@ -5,7 +5,14 @@
     "folderExpanded": "folder_open",
     "rootFolder": "root_folder",
     "rootFolderExpanded": "root_folder_open",
-    "folderNames": {},
+    "folderNames": {
+        "venv": "folder_env",
+        ".venv": "folder_env",
+    },
+    "folderNamesExpanded": {
+        "venv": "folder_env_expanded",
+        ".venv": "folder_env_expanded",
+    },
     "fileNames": {
         ".git": "git",
         ".gitignore": "git",
@@ -191,6 +198,10 @@
         "zst": "archive",
         "toml": "toml",
         "py": "python",
+        "pyo": "python",
+        "pyc": "python",
+        "pyw": "python",
+        "ipynb": "jupyter",
         "tf": "terraform",
         "go": "go",
         "php": "php",
@@ -210,12 +221,11 @@
         "compose.yaml": "docker",
         "compose.yml": "docker",
         "swift": "swift",
-        "exe": "exe",
-        "msi": "exe",
+        "exe": "package",
+        "msi": "package",
         "dat": "hex",
         "bin": "hex",
         "hex": "hex",
-        "ipynb": "jupyter",
         "mdx": "mdx",
         "erl": "erlang",
         "lua": "lua",
@@ -233,6 +243,9 @@
         "option": "config",
         "props": "config",
         "prefs": "config",
+        "env": "config",
+        "env.prod": "config",
+        "env.dev": "config",
         "jinja": "jinja",
         "jinja2": "jinja",
         "j2": "jinja",
@@ -248,7 +261,7 @@
         "odt": "word",
         "pptx": "powerpoint",
         "ppt": "powerpoint",
-        "vscodeignore": "vscode",
+        "vscodeignore": "ignore",
         "vsixmanifest": "vscode",
         "vsix": "vscode",
         "code-workplace": "vscode",
@@ -272,7 +285,10 @@
         "smali": "android",
         "dex": "android",
         "patch": "git",
-        "tsconfig.json": "typescript"
+        "tsconfig.json": "typescript",
+        "haml": "haml",
+        "vim": "vim",
+        "dll": "binary"
     },
     "fonts": [
         {
@@ -296,6 +312,14 @@
         "folder_open": {
             "fontCharacter": ""
         },
+        "folder_env": {
+            "fontCharacter": "󰛫",
+            "fontSize": "120%"
+        },
+        "folder_env_expanded": {
+            "fontCharacter": "",
+            "fontSize": "100%"
+        },
         "root_folder": {
             "fontCharacter": "󰻃",
         },
@@ -306,7 +330,7 @@
             "fontCharacter": "󱈙"
         },
         "css": {
-            "fontCharacter": ""
+            "fontCharacter": "󰌜"
         },
         "scss": {
             "fontCharacter": ""
@@ -354,7 +378,8 @@
             "fontCharacter": ""
         },
         "image": {
-            "fontCharacter": ""
+            "fontCharacter": "",
+            "fontSize": "0.75rem"
         },
         "video": {
             "fontCharacter": ""
@@ -369,7 +394,8 @@
             "fontCharacter": ""
         },
         "java": {
-            "fontCharacter": ""
+            "fontCharacter": "",
+            "fontSize": "0.75rem"
         },
         "xml": {
             "fontCharacter": "󰗀"
@@ -381,7 +407,8 @@
             "fontCharacter": ""
         },
         "markdown": {
-            "fontCharacter": ""
+            "fontCharacter": "",
+            "fontSize": "0.75rem"
         },
         "git": {
             "fontCharacter": ""
@@ -390,7 +417,7 @@
             "fontCharacter": ""
         },
         "h": {
-            "fontCharacter": ""
+            "fontCharacter": "󰜕"
         },
         "c": {
             "fontCharacter": ""
@@ -402,7 +429,8 @@
             "fontCharacter": ""
         },
         "archive": {
-            "fontCharacter": ""
+            "fontCharacter": "",
+            "fontSize": "0.7rem"
         },
         "toml": {
             "fontCharacter": ""
@@ -417,7 +445,8 @@
             "fontCharacter": "󱁢"
         },
         "go": {
-            "fontCharacter": "󰟓"
+            "fontCharacter": "󰟓",
+            "fontSize": "1rem"
         },
         "gomodsum": {
             "fontCharacter": "󰻀"
@@ -429,7 +458,7 @@
             "fontCharacter": "󰡨"
         },
         "php": {
-            "fontCharacter": ""
+            "fontCharacter": "󰌟",
         },
         "makefile": {
             "fontCharacter": ""
@@ -464,8 +493,8 @@
         "swift": {
             "fontCharacter": "󰛥"
         },
-        "exe": {
-            "fontCharacter": ""
+        "package": {
+            "fontCharacter": ""
         },
         "hex": {
             "fontCharacter": "󱊧"
@@ -511,6 +540,18 @@
         },
         "maven": {
             "fontCharacter": ""
-        }
+        },
+        "ignore": {
+            "fontCharacter": ""
+        },
+        "haml":{
+            "fontCharacter": ""
+        },
+        "vim":{
+            "fontCharacter": ""
+        },
+        "binary":{
+            "fontCharacter": ""
+        },
     }
 }

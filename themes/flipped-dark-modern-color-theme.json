@@ -7,7 +7,7 @@
 		// custom
 		"magicFunction:python": "#be0ea4",
 		"module:python": "#E06C75",
-		//"parameter:python": "#DDDDDD",
+		"variable:python": "#cccccc",
 		"selfParameter:python": "#E4BF7F",
 		"clsParameter:python": "#E4BF7F",
 		"*.typeHint:python": "#56B7C3",

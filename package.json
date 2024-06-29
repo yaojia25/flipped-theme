@@ -3,7 +3,7 @@
   "displayName": "Flipped Theme",
   "description": "基于OneDark Pro和默认Default Dark Modern修改的自用主题",
   "icon": "icon.png",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "publisher": "Jasyo",
   "license": "MIT",
   "engines": {
